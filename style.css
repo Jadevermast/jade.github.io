@@ -1,4 +1,3 @@
-
 /*Clear the inside and outside margins*/
 * {
     margin: 0;
@@ -296,4 +295,87 @@ nav {
 
 #contact > .contact_text > p > img {
     display: none;
+}
+
+
+
+/* Mobile phone style */
+@media (max-width: 767px) {
+    /*Content width*/
+    .width {
+        width: 90%;
+        margin: auto;
+    }
+
+    /*navigation bar*/
+    #nav > ul {
+        width: 80%;
+    }
+
+    #art > ul > li {
+        width: 90%;
+    }
+
+    /*works*/
+    #works > .img_1 {
+        flex-wrap: wrap;
+    }
+
+    #works > .img_1 > img {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    /*histoire*/
+    #histoire {
+        flex-direction: column;
+    }
+
+    #histoire > div,
+    #contact > div {
+        width: 100%;
+    }
+
+    #histoire > .body_img,
+    #contact > .contact_img{
+        display: none;
+    }
+
+    #histoire > .text > p > img,
+    #contact > .contact_text > p>img{
+        display: block;
+        width: 200px;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+
+    .img_2 {
+        height: 200px;
+    }
+    .subhead_img {
+        height: 200px;
+    }
+
+}
+
+/* Slab style */
+@media (min-width: 768px) and (max-width: 1329px) {
+    /*Content width*/
+    .width {
+        width: 80%;
+        margin: auto;
+    }
+
+    /*navigation bar*/
+    #nav > ul {
+        width: 40%;
+    }
+
+    .img_2 {
+        height: 300px;
+    }
+
+    .subhead_img {
+        height: 300px;
+    }
 }
