@@ -1,1 +1,296 @@
+/*Clear the inside and outside margins*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/*Public effect*/
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*public class*/
+.width {
+    width: 70%;
+    margin: auto;
+}
+
+.box_bg {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background: #f4f4f4;
+}
+
+.box_border {
+    border-bottom: 1px solid #939393;
+}
+
+
+/*box*/
+#box {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/*navigation bar*/
+nav {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #DDD;
+}
+
+#nav {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#nav > ul > li {
+    border-radius: 5px;
+}
+
+#nav > ul > li:hover {
+    background: #efefef;
+}
+
+#nav > ul > li > a {
+    display: block;
+    padding: 5px 20px;
+
+}
+
+/*subject*/
+#subject {
+    padding: 10px 0;
+}
+
+#subject > .text {
+    text-align: center;
+    padding: 80px 0;
+}
+
+#subject > .text > p {
+    color: #c1c1c1;
+}
+.subhead_img {
+    width: 100%;
+    height: 400px;
+}
+
+.subhead_img img {
+    width: 100%;
+    height: 100%;
+}
+
+/*Oeuvres d’art*/
+#art {
+    margin-top: 20px;
+}
+
+#art > ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#art > ul > li {
+    width: calc(80% / 3);
+    height: 240px;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+
+#art > ul > li > .list_img {
+    width: 70%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#art > ul > li > .list_img:hover {
+    border: 1px solid black;
+}
+
+#art > ul > li > .list_img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#art > ul > li > .text {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*works*/
+#works {
+    padding: 50px 0;
+}
+
+
+#works > div > img {
+    border-radius: 5px;
+}
+
+#works > .img_1 {
+    width: 100%;
+}
+
+#works > .img_1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#works > .img_1 > img {
+    width: calc(90% / 2);
+}
+
+.img_2 {
+    width: 100%;
+}
+
+.img_2 {
+    margin-top: 60px;
+    height: 400px;
+}
+
+.img_2 > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*histoire*/
+#histoire {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#histoire > div {
+    width: calc(100% / 2);
+}
+
+#histoire > .body_img {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+#histoire > .body_img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+#histoire > .text > p {
+    margin-top: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    font-weight: 600;
+}
+
+#histoire > .text > p > img {
+    display: none;
+}
+
+/*newsletter*/
+#search {
+    width: 100%;
+    padding: 40px;
+    background: #f4f4f4;
+}
+
+#search > .body_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search > .body_search > h2 {
+    color: #aeaeae;
+}
+
+#search > .body_search > div {
+    margin: 40px 0;
+}
+
+#search > .body_search > div > input {
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #afafaf;
+}
+
+#search > .body_search > div > button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/*Contact*/
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+#contact > div {
+    width: calc(90% / 2);
+}
+
+#contact > .contact_img {
+    display: block;
+    height: 400px;
+}
+
+#contact > .contact_img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+#contact > .contact_text > p {
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    font-weight: 600;
+}
+
+#contact > .contact_text > p > img {
+    display: none;
+}
