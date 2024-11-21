@@ -351,4 +351,24 @@ nav {
         height: 200px;
     }
 
+/* Slab style */
+@media (min-width: 768px) and (max-width: 1329px) {
+    /*Content width*/
+    .width {
+        width: 80%;
+        margin: auto;
+    }
 
+    /*navigation bar*/
+    #nav > ul {
+        width: 40%;
+    }
+
+    .img_2 {
+        height: 300px;
+    }
+
+    .subhead_img {
+        height: 300px;
+    }
+}
