@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Title Hero;
 }
 
 /*Public effect*/
@@ -95,7 +94,7 @@ nav {
 }
 
 #subject > .text > p {
-    color: #c1c1c1;
+    color: #000000;
 }
 .subhead_img {
     width: 100%;
